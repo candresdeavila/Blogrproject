@@ -1,12 +1,77 @@
 .header_container{
-    background-color: tomato;
-    color:aqua;
+    background-image: linear-gradient(#FF8C71, #FE4C5A), url("../blogr-landing-page-main/images/bg-pattern-intro-desktop.svg");
+    background-size: cover;                  
+    color: white;
     margin: 0 auto;
-    height: fit-content;
+    height: 400px;
     width: 100%;
     max-width: 1366px;
+    border-bottom-left-radius: 60px;
 
 }
+.header_container_section1{
+    display: flex;
+}
+
+.logo_img_header{
+    margin-top: 50px;
+    margin-left: 160px;
+    width: 110px;
+    height: 41px;
+}
+nav{
+    max-width:fit-content;
+    margin: auto;
+    background-color: transparent;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-right: 700px;
+}
+
+.menu_horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu_horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu_horizontal > li:hover{
+    background-color:#FE4C5A
+}
+
+.menu_vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+.menu_horizontal li:hover .menu_vertical{
+    display: block;
+
+}
+
+.menu_vertical li:hover{
+    background-color: #FE4C5A;
+}
+
+.menu_vertical li a{
+    display: block;
+    color: black;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------- */
 
 .section1_container{
     background-color: #FAFAFA;
